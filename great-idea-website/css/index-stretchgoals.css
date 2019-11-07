@@ -65,20 +65,28 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 header{
-	margin:15px 0 35px;
-	padding: 25px;
+	margin:0 0 25px;
+	
 	display: inline-block;
-	width:100%;
+    width:750px;
+    background-color: lightslategrey;
+    border:solid black;
+    border-radius:20px;
+    position:fixed;
 }
+
 nav a{
 	display: inline-block;
 	float: left;
 	color: lightgray;
 	text-decoration:none;
-	margin:15px 5px 5px 5px;
+	margin: 5px 5px 5px;
 	padding: 10px;
 	font-size: 16px;
 }
+
+
+
 footer{
 	text-align:center;
 	margin:25px;
@@ -88,23 +96,24 @@ footer{
 	margin: auto;
 }
 .logo{
-	margin-top:15px;
+	margin-top:5px;
 	display: inline-block;
 	float: right;
 }
 .main{
-	margin:auto;
-	height:400px;
+    margin:auto;
+    margin-top:20px;
+	height:525px;
 }
 	.main h1{
 		text-align: center;
 		font-size:64px;
 		display: inline-block;
-		margin:60px 0 auto 0;
+		margin:160px 0 auto 0;
 		padding: auto;
 	}
 	.main img{
-		margin:auto 0 auto 0;
+		margin:100px 0 auto 0;
 		display: inline-block;
 		float:right;
 	}
